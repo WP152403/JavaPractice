@@ -26,7 +26,7 @@ public class Operator {
 		int chain = 1500;
 		long yearcost = (long)salary*12*employee*chain;
 		System.out.printf("연간 인건비 : ");
-		System.out.printf("%,d", yearcost);
+		System.out.printf("%,d원", yearcost);
 	}
 
 }
