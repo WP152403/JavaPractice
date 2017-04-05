@@ -39,11 +39,10 @@ public class Question {
 		scanner.close();	
 		
 		
-		
 		System.out.println("<<결과 출력>>");
 		for(i=0;i<3;i++){
 			StringBuilder sb= new StringBuilder(questions[i]);
-			System.out.println(sb.append(answers[i]));
+			System.out.println(sb.append(answers[i])+"입니다.");
 		}
 
 	}
